@@ -57,3 +57,41 @@
     font-weight: 500;
     font-size: 16px;
 }
+
+@media only screen and (max-width: 480px){
+    .navLeft{
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .navLink{
+        margin-left: 5px;
+    }
+    .navCenter{
+      display: none;
+    }
+    .navRight{
+        margin-left: 10px;
+    }   
+}
+
+@media only screen and (max-width: 940px){
+    .navLeft{
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        margin-right: 5px;
+    }
+    .search{
+        width: 300px;
+        height: 24px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+}
